@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="cal.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="cal">
+    <input title="dis" type="text" id="display" readonly>
+    <div class="button_cont">
+      <button class="but" onclick="clearDisplay()">C</button>
+      <button class="but" onclick="appendToDisplay('1')">1</button>
+      <button class="but" onclick=" aprtodisplay('2')">2</button>
+      <button class="but" onclick="artodisplay('+')">+</button>
+      <button class="but" onclick="alextodisplay('3')">3</button>
+      <button class="but" onclick="aaextodisplay('4')">4</button>
+      <button class="but" onclick="awwlextodisplay('-')">-</button>
+      <button class="but" onclick="alerrxtodisplay('5')">5</button>
+      <button class="but" onclick="aleqqqxtodisplay('6')">6</button>
+      <button class="but" onclick=" aleqqqqoxtodisplay('*')">*</button>
+      <button class="but" onclick="aqwlextodisplay('7')">7</button>
+      <button class="but" onclick="aqwkkktodispla('8')">8</button>
+      <button class="but" onclick="alextodissplay('/')">/</button>
+      <button class="but" onclick="aleppxtodisplay('=')">=</button>
+      <button class="but" onclick="alpmmmextodisplay('9')">9</button>
+      <button class="but" onclick="alextodipppsplay('0')">0</button>
+      <button class="but" onclick="alextodispllpmay('.')">.</button>
+    </div>
+  </div>
+
+  <script>
+    let lax = '';
+
+    function clearDisplay() {
+      lax = '';
+      document.querySelector('#display').value = lax;
+    }
+
+    function appendToDisplay(value) {
+      lax += value;
+      document.querySelector('#display').value = lax;
+    }
+    function aprtodisplay(value){
+      lax = lax +2;
+      document.querySelector('#display').value = lax;
+
+    }
+    function artodisplay(value){
+      lax = lax + '+';
+      document.querySelector('#display').value = lax;
+    }
+    function alextodisplay(value){
+      lax = lax + '3';
+      document.querySelector('#display').value = lax;
+    }
+    function aaextodisplay(value){
+      lax = lax + '4';
+      document.querySelector('#display').value = lax;
+    }
+    function awwlextodisplay(value){
+      lax = lax + '-';
+      document.querySelector('#display').value = lax;
+    }
+    function alerrxtodisplay(value){
+      lax = lax + '5';
+      document.querySelector('#display').value = lax;
+    }
+    function aleqqqxtodisplay(value){
+      lax = lax + '6';
+      document.querySelector('#display').value = lax;
+    }
+    function aleqqqqoxtodisplay(value){
+      lax = lax + '*';
+      document.querySelector('#display').value = lax;
+    }
+    function aqwlextodisplay(value){
+      lax = lax + '7';
+      document.querySelector('#display').value = lax;
+    }
+    function aqwkkktodisplay(value){
+      lax = lax + '8';
+      document.querySelector('#display').value = lax;
+    }
+    function alextodissplay(value){
+      lax = lax + '/';
+      document.querySelector('#display').value = lax;
+    }
+    function aleppxtodisplay(value){
+      lax = eval(lax);
+      document.querySelector('#display').value = lax;
+    }
+    function alpmmmextodisplay(value){
+      lax = lax + '9';
+      document.querySelector('#display').value = lax;
+    }
+    function alextodipppsplay(value){
+      lax = lax + '0';
+      document.querySelector('#display').value = lax;
+    }
+    function alextodispllpmay(value){
+      lax = lax + '.';
+      document.querySelector('#display').value = lax;
+    }
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,20 @@
+#cal{
+  border: 1px solid rgb(181, 29, 29);
+  border-radius: 5px;
+  width: 200px;
+}
+#display{
+  margin: 10px;
+  width: 85%;
+  font-size: 25px;
+}
+
+.button_cont{
+  
+  justify-content: center;
+}
+.but {
+  width: 40px;
+  height: 40px;
+  margin: 6px;
+}
